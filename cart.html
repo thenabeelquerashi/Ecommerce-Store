@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart | NQ Style</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand-wrap">
+          <div class="brand-mark">NQ</div>
+          <div class="brand-text">
+            <span class="brand-title">NQ STYLE</span>
+            <span class="brand-sub">FASHION STORE</span>
+          </div>
+        </div>
+        <nav class="main-nav">
+          <a href="index.html">Home</a>
+          <a href="category.html">Men</a>
+          <a href="category.html">Women</a>
+          <a href="category.html">Kids</a>
+          <a href="category.html">Accessories</a>
+        </nav>
+        <div class="nav-actions">
+          <div class="search-box">
+            <span class="search-icon">⌕</span>
+            <input type="text" placeholder="Search for products..." />
+          </div>
+          <button class="icon-btn">♡</button>
+          <button class="icon-btn cart-btn"><span>🛒</span><em>3</em></button>
+        </div>
+      </div>
+    </header>
+
+    <main class="container cart-page">
+      <div class="breadcrumb">Home / Shopping Cart</div>
+      <h1>Shopping Cart <span>(3 items)</span></h1>
+
+      <div class="cart-layout">
+        <section class="cart-items">
+          <article class="cart-item">
+            <div class="item-image shirt-one"></div>
+            <div class="item-copy">
+              <h3>Classic Oxford Shirt</h3>
+              <p>Size: M</p>
+              <p>Color: <span class="color-pill light-blue"></span> Light Blue</p>
+            </div>
+            <div class="price-group">
+              <div class="unit-price">Rs. 2,999</div>
+              <div class="qty-controls">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+              <div class="line-total">Rs. 2,999</div>
+            </div>
+            <button class="trash-btn">🗑</button>
+          </article>
+
+          <article class="cart-item">
+            <div class="item-image hoodie-one"></div>
+            <div class="item-copy">
+              <h3>Essential Hoodie</h3>
+              <p>Size: L</p>
+              <p>Color: <span class="color-pill navy"></span> Navy</p>
+            </div>
+            <div class="price-group">
+              <div class="unit-price">Rs. 2,799</div>
+              <div class="qty-controls">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+              <div class="line-total">Rs. 2,799</div>
+            </div>
+            <button class="trash-btn">🗑</button>
+          </article>
+
+          <article class="cart-item">
+            <div class="item-image jeans-one"></div>
+            <div class="item-copy">
+              <h3>Slim Fit Jeans</h3>
+              <p>Size: 32</p>
+              <p>Color: <span class="color-pill blue"></span> Blue</p>
+            </div>
+            <div class="price-group">
+              <div class="unit-price">Rs. 3,499</div>
+              <div class="qty-controls">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+              </div>
+              <div class="line-total">Rs. 3,499</div>
+            </div>
+            <button class="trash-btn">🗑</button>
+          </article>
+        </section>
+
+        <aside class="cart-summary">
+          <h2>Order Summary</h2>
+          <div class="summary-line"><span>Subtotal (3 items)</span><strong>Rs. 8,297</strong></div>
+          <div class="summary-line"><span>Tax (5%)</span><strong>Rs. 415</strong></div>
+          <div class="summary-line"><span>Shipping</span><strong>Rs. 0</strong></div>
+          <div class="summary-total"><span>Total</span><strong>Rs. 8,712</strong></div>
+          <div class="coupon-box">
+            <input type="text" placeholder="Enter coupon code" />
+            <button>Apply</button>
+          </div>
+          <a href="checkout.html" class="primary-btn checkout-btn">Proceed to Checkout <span>→</span></a>
+          <div class="secure-box">
+            <span>🔒</span>
+            <div>
+              <strong>Secure & encrypted payments</strong>
+              <small>Your information is safe with us.</small>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <a href="index.html" class="continue-link">← Continue Shopping</a>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-branding">
+          <div class="brand-mark">NQ</div>
+          <div class="brand-text">
+            <span class="brand-title">NQ STYLE</span>
+            <span class="brand-sub">FASHION STORE</span>
+          </div>
+          <p>Style is not just what you wear, it's how you live.</p>
+          <div class="socials">
+            <span>f</span>
+            <span>◎</span>
+            <span>◌</span>
+            <span>◉</span>
+          </div>
+        </div>
+        <div class="footer-links">
+          <div>
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Men</a></li>
+              <li><a href="#">Women</a></li>
+              <li><a href="#">Kids</a></li>
+              <li><a href="#">Accessories</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Customer Service</h4>
+            <ul>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Shipping & Delivery</a></li>
+              <li><a href="#">Returns & Exchanges</a></li>
+              <li><a href="#">Size Guide</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>About Us</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4>Payment Methods</h4>
+            <div class="payment-logos">
+              <span>VISA</span>
+              <span>Pay</span>
+              <span>GPay</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright container">© 2025 NQ Style. All rights reserved.</div>
+    </footer>
+  </body>
+</html>
